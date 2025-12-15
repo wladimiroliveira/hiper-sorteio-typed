@@ -45,7 +45,7 @@ export function LoginForm({
                 <div className="flex items-center">
                   <FieldLabel htmlFor="password">Password</FieldLabel>
                 </div>
-                <Input id="password" type="password" required />
+                <Input id="password" type="password" placeholder="********" required />
               </Field>
               <Field>
                 <Button type="submit">Login</Button>
